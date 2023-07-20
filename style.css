@@ -2,10 +2,12 @@ body {
     background-color: gray;
 }
 
-.header {
+#header {
     text-align: center;
     text-emphasis-style: bold;
     padding: 60px 0;
     width: 100%;
     color: black;
+    background-color: darkolivegreen;
+    list-style-position: inside;
 }
