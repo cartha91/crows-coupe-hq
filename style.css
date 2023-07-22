@@ -2,7 +2,7 @@
 
 
 body {
-    background-color: gray;
+    background-color: rgba(2, 0, 0, 0.952);
 }
 
 #header {
@@ -10,16 +10,37 @@ body {
     text-emphasis-style: bold;
     padding: 60px 0;
     width: 100%;
-    color: #21ebff;
-    background-image: url("/root/Development/Code/crows-coupe-hq/crows-coupe-hq/images/banner-backing.jpg");
+    color: #ebe704;
     list-style-position: inside;
+}
+
+.neonText {
+  color: #0a22fa;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px rgb(182, 212, 7),
+    0 0 82px rgba(210, 224, 7, 0.911),
+    0 0 92px rgb(235, 194, 11),
+    0 0 102px rgb(14, 209, 40),
+    0 0 151px rgb(41, 236, 34);
+}
+
+h1 {
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: -70px;
+  height: 300px;
+  background-position: top;
 }
 
 a {
     position: relative;
     padding: 10px 30px;
     margin: 0 15px;
-    color: #21ebff;
+    color: #0a22fa;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 2px;
