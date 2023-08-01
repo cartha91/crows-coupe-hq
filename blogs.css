@@ -1,3 +1,60 @@
 body {
-    background-color: rgb(185, 233, 233);
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
 }
+h1 {
+    text-align: center;
+    color: #ff0000;
+}
+h2 {
+    color: #0000ff;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.section {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    margin: 10px;
+}
+.anime {
+    display: flex;
+    align-items: center;
+}
+.anime img {
+    width: 100px;
+    height: 150px;
+    margin-right: 10px;
+}
+.anime p {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  nav a {
+    display: block;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #ff00de;
+    color: #188503;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 100px;
+  }
+  
+  
+  nav a:hover {
+    background-color: white;
+    color: #ff00de;
+  }
