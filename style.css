@@ -1,5 +1,7 @@
 body {
-  font-family: 'Vibur', cursive;
+  font-family: Papyrus, fantasy;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: rgb(3, 182, 12);
   margin: 0;
   padding: 0;
@@ -13,7 +15,7 @@ body {
 
 
 h1 {
-  font-size: 50px;
+  font-size: 60px;
   text-shadow: 0 0 5px #188503, 0 0 10px #010500, 0 0 20px #ff00de, 0 0 30px #ff00de, 0 0 40px #ff00de, 0 0 55px #ff00de, 0 0 75px #ff00de;
 }
 
@@ -32,9 +34,9 @@ nav a {
   height: 100px;
   margin: 10px;
   border-radius: 10px;
-  background-color: #ff00de;
+  background-color: #7c0799;
   color: #188503;
-  font-size: 30px;
+  font-size: 50px;
   text-decoration: none;
   text-align: center;
   line-height: 100px;
