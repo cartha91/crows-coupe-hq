@@ -1,0 +1,45 @@
+body {
+    font-family: 'Cizel', sans-serif;
+    background-image: url('images/mtcbackground.jpg');
+    background-size: cover;
+}
+.contact-section {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.navbar {
+    background-color:rgb(65, 135, 8);
+    padding: 20px 0; /* Increase the vertical padding */
+    justify-content: center;
+  }
+  
+  .navbar .button {
+    font-size: 24px; /* Increase the font size */
+  }
+
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    color: var(--tertiary-color);
+    background-color: var(--primary-color);
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px var(--primary-color);
+  }
+
+  .navbar .container {
+    display: flex;
+    justify-content: center;
+  }
